@@ -70,3 +70,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Installation
+
+- Install composer 
+
+- Install NPM 
+
+- run in your directory   npm install touch-cli -g
+
+- run in your directory   composer update
+
+- rename .env.example into .env
+
+- run      php artisan key:generate
+
+- run      touch database/database.sqlite
+
+- run      php artisan migrate
+
+- run      php artisan serve
+
+- open on your browser    localhost:8000 or 127.0.0.1:8000
